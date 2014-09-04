@@ -15,11 +15,11 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
-	color: #00395E;
+	color: #031C2C;
 	/*background: url('../img/psbg.png');*/
 	background-color: #A9D6F2;
-
-
+	/*font-weight: bold;*/
+	font-size: 16px !Important;
 
 	/*background-color:#000000; */
   background-attachment: fixed; 
@@ -123,10 +123,27 @@ hr{
 	background-color: #149cd7;
 }
 
+.nav_special{
+	font-weight: bold;
+}
 
+.nav_second{
+	background-color: #149CD7;
+}
+
+.navbar_second>ul>li:hover{
+	background: #FFFFFF;
+	color: #005A82;
+}
+
+.camera_wrap{
+ height: 200px !Important;
+}
 .slider-col {
 	/*background-color: #A9D6F2 !Important;*/
 	background-color: transparent !Important;
+	padding: 5px 0;
+
 }
 
 /* SOCIAL */
