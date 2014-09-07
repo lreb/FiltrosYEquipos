@@ -1,321 +1,179 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Somos una empresa mexicana dedicada al tratamiento de agua, así como a la comercialización de diferentes sistemas  para la potabilización de agua.">
-		<meta name="keywords" content="Filtros, Equipos, Osmosis, Trataminetos, Aguas, Albercas, Chihuahua, Mexico, Colonia Panamericana, Ultrapura, Ultrafiltracion, Rocha, Potable, Microfiltración, multimedia, carbón, Ablandamiento, cloro, ozono, Inversa, filter, catiónica, Anionica, Arenas sílica, hydranautics, flow-pro, aqua park, altamira, espa, hayward, purificacion">
-		<meta name="author" content="Luis Raúl Espinoza Barboza">
-
-		<title>FESTA</title>
-		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
-		<link href="../fonts/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="../css/bootstrap-3.1.1.min.css" rel="stylesheet">
-		<link href="../css/lollies.min.css" rel="stylesheet">
-		<link href="../css/custom.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="js/html5shiv-3.7.0.js"></script>
-			<script src="js/respond-1.4.2.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="container colWidth">
-		<header id="main-header">
-		<div id="slider" class="slider-col">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="camera_slider">
-							<div data-src="../img/slider/slider_1.png"></div>
-							<div data-src="../img/slider/slider_2.png"></div>
-							<div data-src="../img/slider/slider_3.png"></div>
-							<div data-src="../img/slider/slider_4.png"></div>
-						</div>
+<nav id="main-nav">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- NAVIGATION -->
+				<div class="navbar navbar-default" role="navigation">
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav nav-justified nav_special">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="#" onclick="purificacion();">Purificación</a></li>
+							<li><a href="#" onclick="tratamiento();">Tratamiento de aguas</a></li>
+							<li><a href="#" onclick="albercas();">Albercas</a></li>
+							<li><a href="#" onclick="asesorias();">Asesorias</a></li>
+							<li class="active"><a href="#">Quienes somos</a></li>
+							<li><a href="#contacto">Contacto</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
+	</div>
 
-		</header>
-		
-		<nav id="main-nav">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<!-- NAVIGATION -->
-						<div class="navbar navbar-default" role="navigation">
-							<div class="navbar-collapse collapse">
-								<ul class="nav navbar-nav nav-justified nav_special">
-									<li><a href="../index.html">Inicio</a></li>
-									<li><a href="../views/n_purificacion.html">Purificación</a></li>
-									<li><a href="../views/n_tratamiento.html">Tratamiento de aguas</a></li>
-									<li><a href="../views/n_albercas.html">Albercas</a></li>
-									<li><a href="../views/n_asesorias.html">Asesorias</a></li>
-									<li class="active"><a href="#">Quienes somos</a></li>
-									<li><a href="#contacto">Contacto</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!--div class="container nav_second">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="navbar navbar-default" role="navigation"-->
-							<!-- NAVIGATION SECOND-->
-							<!--div class="navbar " role="navigation">
-								<div class="navbar-collapse collapse navbar_second">
-									<ul class="nav navbar-nav nav-justified nav_special">
-										<li><a href="#residencial">Residencial</a></li>
-										<li><a href="#comercial">Comercial</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div-->
-		</nav>		
-		
-		<div class="content-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Nosotros</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-14">
-						<h2></h2>
-						<p>
-							Somos una empresa mexicana dedicada al tratamiento de agua, así como a la comercialización de diferentes sistemas  para la potabilización de agua.
-							Nuestra experiencia en la implementación de plantas potabilizadoras para producción de agua purificada por medio de osmosis inversa, es muy amplia.
-							Nuestra empresa ha instalado más de 150 plantas purificadoras en diferentes localidades del estado de Chihuahua.
-						</p>
-						<p>
-							También la Comisión Nacional del Agua tiene instaladas diez plantas purificadoras para remoción de flúor y arsénico, en diferentes zonas rurales de la región lagunera con problemas de altos niveles de estos contaminantes.
-							Nuestras plantas consisten de una serie de procesos para tratamiento de aguas potables y que son lo más novedoso en la tecnología de tratamiento de aguas. Estos procesos son:
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<hr class="featurette-divider">
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Algunos de nuestros trabajos</h1>
-					</div>
-				</div>
-				<div class="row">
-					
-					<div class="col-md-12">
-					<h3>Junta Central de Agua y Saneamiento del Estado de Chihuahua</h3>
-						<p>
-							Implementación de 16 plantas con sistemas de ósmosis inversa y sus accesorios para comunidades rurales del estado de Chihuahua, con problemas de calidad en las fuentes de suministro de agua potable, en capacidades de 1,000, 2,000 y 5,000 litros por día.
-				            Asesoría a la empresa FESTA para la implementación de igual número de plantas. 
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Comisión Estatal de Agua y Saneamiento del Estado de Guanajuato</h3>
-						<p>
-							Implementación de planta potabilizadora con capacidad de 5,000 litros por día en San Agustín Municipio de Irapuato, Guanajuato.
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Instituto Chihuahuense de Salud del Estado de Chihuahua, ICHISAL</h3>
-						<p>
-							Implementación de siete sistemas de ablandamiento para tratamiento del agua para sus esterilizadores en diferentes hospitales del estado.
-							Monitoreo, capacitación y asesoría en la operación del equipo.
-
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Comisión Nacional Del Agua</h3>
-						<p>
-							Suministro de Suministro, de 5 plantas de ósmosis inversa, con capacidad de producción de 15 litros por minuto (4 galones por minuto), para potabilizar agua en  localidades rurales del Estado de Durango. Contrato No. CNA-SGIHU-SA-05/2005.
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Servicios Estatales de Salud Hospital Integral de Ojinaga</h3>
-						<p>
-							Planta de ósmosis inversa para remoción de sales para suministro al hospital Integral de Ojinaga.
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>EATON Truck SA de RL en San Luis Potosi</h3>
-						<p>
-							Diagnostico, análisis, modificaciones, reparaciones, arranque, operación y capacitación para personal de planta de planta de tratamiento de aguas residuales de esta empresa en la fabricación de embragues y piezas para transmisiones automotrices. (Ing. Olivia Rivera, gerente EHS Tel. (444)826 7900).
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Chihuahua Motors Agencia Ford</h3>
-						<p>
-							Reparación y puesta en marcha de planta de tratamiento de aguas residuales provenientes del taller mecánico (Sr. César Jiménez Tels. 01(614)439 04 54).
-				        </p>
-					</div>
-					<div class="col-md-12">
-					<h3>Autocamiones de Chihuahua SA de CV Agencia Chrysler</h3>
-						<p>
-							Implementación de planta recicladora de agua del taller de lavado para autos (Ing. Carlos Ochoa y CP. Mario Meza
-							Tels. 01(614)412 01 78)
-				        </p>
-					</div>
-				</div>
-			</div>	
-			
-			<hr class="featurette-divider">
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1></h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<h2>Tecnologias</h2>
-						<p>
-							Nuestras plantas consisten de una serie de procesos para tratamiento de aguas potables y que son lo más novedoso en la tecnología de tratamiento de aguas. Estos procesos son:
-						</p>
-						<p>
-							<ul type = disk >
-								<li>Microfiltración
-								<li>Filtración en multimedia
-								<li>Filtración en carbón activado
-								<li>Ablandamiento con resinas en ciclo sodio
-								<li>Desinfección con cloro
-								<li>Desinfección con ozono
-								<li>Esterilización con radiación Ultravioleta
-								<li>Ultrafiltración
-								<li>Osmosis Inversa
+	<!--div class="container nav_second">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="navbar navbar-default" role="navigation"-->
+					<!-- NAVIGATION SECOND-->
+					<!--div class="navbar " role="navigation">
+						<div class="navbar-collapse collapse navbar_second">
+							<ul class="nav navbar-nav nav-justified nav_special">
+								<li><a href="#residencial">Residencial</a></li>
+								<li><a href="#comercial">Comercial</a></li>
 							</ul>
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h2>Técnicas</h2>
-						<p>
-							Las soluciones que ofrecemos incluyen
-						</p>
-						<P>
-							<ul type = disk>
-								<li>Polímeros floculantes
-								<li>Sistemas de producción de agua por medio de Osmosis Inversa
-								<li>Sistemas de Agua Ultrapura para laboratorios
-								<li>Sistemas de filtración por medio de carbón activado, multimedia, filter Ag, entre otros.
-								<li>Cartuchos de carbón activado para eliminar cloro en el agua
-								<li>Cartuchos de polipropileno para eliminar sólidos y partículas.
-								<li>Resinas catiónica, Anionica y mixta
-								<li>Arenas sílica
-							</ul>
-						</P>
-					</div>
-					<div class="col-md-4">
-						<h2>Calidad</h2>
-						<p>
-							Trabajamos apegados a las normas más estrictas de calidad, a nivel internacional, en beneficio de nuestros clientes y del planeta, porque buscamos posicionarnos como empresa líder a nivel nacional.
-						</p>
-						<p>
-							Diseñamos: el sistema de tratamiento de acuerdo a la necesidad de su empresa.
-						</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<hr class="featurette-divider">
+	</div-->
+</nav>		
 		
-		<div class="footer-block" id="contacto">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<h2>Dirección</h2>
-						<p>
-							Filtros Equipos y Sistemas Para Tratamiento de Aguas
-							<br> 
-							República de Colombia Número 219, Col. Panamericana
-							<br>
-							Chihuahua, Chih. 
-							<br>
-							Tel (614) 4260990, 4260991 
-						</p>
-						
-					</div>
-					<div class="col-md-3">
-						<h2>Contacto</h2>
-						<p>
-							Elsa Rocha
-							<br>
-							<a href="mailto:filtrosyequipos2014@gmail.com">filtrosyequipos2014@gmail.com</a>
-							<br>
-							<a href="mailto:elsa_rocha@yahoo.com">elsa_rocha@yahoo.com</a>
-							<br>
-							<a href="mailto:erocha@filtrosyequipos.com">erocha@filtrosyequipos.com</a>
-						</p>
-					</div>
-					<div class="col-md-6">
-						<!--div id="footer-map"></div-->
-						<h2>
-							Puedes seguirnos en: 
-						</h2>
-						<p class="pull-right">
-				          <div class="social-popout"><a href="https://www.facebook.com/pages/Filtros-y-Equipos-chihuahua/820492864642587" 
-				          target="_blank">
-				            <img src="../img/social_icons/Facebook.png" />
-				          </a></div>
-				          <!--div class="social-popout"><a href="https://github.com/lreb/DeviceMaster" target="_blank">
-				            <img src="img/social_icons/Github.png" />
-				          </a></div-->
-				          <div class="social-popout"><a href="https://plus.google.com/u/0/103431308185318942079" target="_blank">
-				            <img src="../img/social_icons/Google-Plus.png" />
-				          </a></div>
-				          <div class="social-popout"><a href="https://www.linkedin.com/pub/filtros-y-equipos/9b/648/44/en" target="_blank">
-				            <img src="../img/social_icons/Linkedin.png" />
-				          </a></div>
-				          <div class="social-popout"><a href="https://twitter.com/FiltrosyEqupos" target="_blank">
-				            <img src="../img/social_icons/Twitter-Bird.png" />
-				          </a></div>
-				          <div class="social-popout"><a href="https://www.youtube.com/channel/UC4VgcdTfAItKdoWzz5N_XIQ" target="_blank">
-				            <img src="../img/social_icons/Youtube.png" />
-				          </a>
-				          </div>
-				        </p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copyright-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 left">
-						&copy; 2014 FESTA - Filtros Y Equipos.
-					</div>
-					<!--div class="col-md-6 col-sm-6 right hidephone">
-						Proin | Metus | Vulputate | Curabitur
-					</div-->
-				</div>
-			</div>
-		</div>
-		</div>
-								<!-- SCRIPTS -->
-		<script src="../js/jquery-1.7.2.min.js"></script>
-		<script src="../js/bootstrap-3.1.1.min.js"></script>
-		<script src="../plugins/backstretch/backstretch-2.0.4.min.js"></script>
-		<script src="../plugins/camera-slider/camera-slider-1.3.4.min.js"></script>
-		<script src="../plugins/camera-slider/easing-1.3.min.js"></script>
-		<script src="../plugins/fancybox/fancybox-1.3.4.pack.js"></script>
-		<script src="../plugins/fancybox/klass-1.0.min.js"></script>
-		<script src="../plugins/fancybox/photoswipe-3.0.5.min.js"></script>
-		<script src="../plugins/hover-animations/transform2d.min.js"></script>
-		<script src="../plugins/hover-animations/hover-animations-1.0.min.js"></script>
-		<script src="../plugins/match-height/match-height-0.5.1.min.js"></script>
-		<script src="../plugins/validation/validation-2.2.min.js"></script>
-		<script src="../http://maps.google.com/maps/api/js?sensor=false"></script>
-		<script src="../js/lollies.min.js"></script>
-		<script src="../js/custom.js"></script>
-	</body>
-</html>
+<div class="row">
+	<div class="col-md-12">
+		<h1>Nosotros</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-14">
+		<h2></h2>
+		<p>
+			Somos una empresa mexicana dedicada al tratamiento de agua, así como a la comercialización de diferentes sistemas  para la potabilización de agua.
+			Nuestra experiencia en la implementación de plantas potabilizadoras para producción de agua purificada por medio de osmosis inversa, es muy amplia.
+			Nuestra empresa ha instalado más de 150 plantas purificadoras en diferentes localidades del estado de Chihuahua.
+		</p>
+		<p>
+			También la Comisión Nacional del Agua tiene instaladas diez plantas purificadoras para remoción de flúor y arsénico, en diferentes zonas rurales de la región lagunera con problemas de altos niveles de estos contaminantes.
+			Nuestras plantas consisten de una serie de procesos para tratamiento de aguas potables y que son lo más novedoso en la tecnología de tratamiento de aguas. Estos procesos son:
+		</p>
+	</div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row">
+	<div class="col-md-12">
+		<h1>Algunos de nuestros trabajos</h1>
+	</div>
+</div>
+<div class="row">
+	
+	<div class="col-md-12">
+	<h3>Junta Central de Agua y Saneamiento del Estado de Chihuahua</h3>
+		<p>
+			Implementación de 16 plantas con sistemas de ósmosis inversa y sus accesorios para comunidades rurales del estado de Chihuahua, con problemas de calidad en las fuentes de suministro de agua potable, en capacidades de 1,000, 2,000 y 5,000 litros por día.
+            Asesoría a la empresa FESTA para la implementación de igual número de plantas. 
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Comisión Estatal de Agua y Saneamiento del Estado de Guanajuato</h3>
+		<p>
+			Implementación de planta potabilizadora con capacidad de 5,000 litros por día en San Agustín Municipio de Irapuato, Guanajuato.
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Instituto Chihuahuense de Salud del Estado de Chihuahua, ICHISAL</h3>
+		<p>
+			Implementación de siete sistemas de ablandamiento para tratamiento del agua para sus esterilizadores en diferentes hospitales del estado.
+			Monitoreo, capacitación y asesoría en la operación del equipo.
+
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Comisión Nacional Del Agua</h3>
+		<p>
+			Suministro de Suministro, de 5 plantas de ósmosis inversa, con capacidad de producción de 15 litros por minuto (4 galones por minuto), para potabilizar agua en  localidades rurales del Estado de Durango. Contrato No. CNA-SGIHU-SA-05/2005.
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Servicios Estatales de Salud Hospital Integral de Ojinaga</h3>
+		<p>
+			Planta de ósmosis inversa para remoción de sales para suministro al hospital Integral de Ojinaga.
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>EATON Truck SA de RL en San Luis Potosi</h3>
+		<p>
+			Diagnostico, análisis, modificaciones, reparaciones, arranque, operación y capacitación para personal de planta de planta de tratamiento de aguas residuales de esta empresa en la fabricación de embragues y piezas para transmisiones automotrices. (Ing. Olivia Rivera, gerente EHS Tel. (444)826 7900).
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Chihuahua Motors Agencia Ford</h3>
+		<p>
+			Reparación y puesta en marcha de planta de tratamiento de aguas residuales provenientes del taller mecánico (Sr. César Jiménez Tels. 01(614)439 04 54).
+        </p>
+	</div>
+	<div class="col-md-12">
+	<h3>Autocamiones de Chihuahua SA de CV Agencia Chrysler</h3>
+		<p>
+			Implementación de planta recicladora de agua del taller de lavado para autos (Ing. Carlos Ochoa y CP. Mario Meza
+			Tels. 01(614)412 01 78)
+        </p>
+	</div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row">
+	<div class="col-md-12">
+		<h1></h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4">
+		<h2>Tecnologias</h2>
+		<p>
+			Nuestras plantas consisten de una serie de procesos para tratamiento de aguas potables y que son lo más novedoso en la tecnología de tratamiento de aguas. Estos procesos son:
+		</p>
+		<p>
+			<ul type = disk >
+				<li>Microfiltración
+				<li>Filtración en multimedia
+				<li>Filtración en carbón activado
+				<li>Ablandamiento con resinas en ciclo sodio
+				<li>Desinfección con cloro
+				<li>Desinfección con ozono
+				<li>Esterilización con radiación Ultravioleta
+				<li>Ultrafiltración
+				<li>Osmosis Inversa
+			</ul>
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Técnicas</h2>
+		<p>
+			Las soluciones que ofrecemos incluyen
+		</p>
+		<P>
+			<ul type = disk>
+				<li>Polímeros floculantes
+				<li>Sistemas de producción de agua por medio de Osmosis Inversa
+				<li>Sistemas de Agua Ultrapura para laboratorios
+				<li>Sistemas de filtración por medio de carbón activado, multimedia, filter Ag, entre otros.
+				<li>Cartuchos de carbón activado para eliminar cloro en el agua
+				<li>Cartuchos de polipropileno para eliminar sólidos y partículas.
+				<li>Resinas catiónica, Anionica y mixta
+				<li>Arenas sílica
+			</ul>
+		</P>
+	</div>
+	<div class="col-md-4">
+		<h2>Calidad</h2>
+		<p>
+			Trabajamos apegados a las normas más estrictas de calidad, a nivel internacional, en beneficio de nuestros clientes y del planeta, porque buscamos posicionarnos como empresa líder a nivel nacional.
+		</p>
+		<p>
+			Diseñamos: el sistema de tratamiento de acuerdo a la necesidad de su empresa.
+		</p>
+	</div>
+</div>	
