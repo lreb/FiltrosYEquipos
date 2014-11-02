@@ -16,16 +16,17 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 	color: #031C2C;
-	/*background: url('../img/psbg.png');*/
+	background: url('../img/site/bkPage.png');
 	background-color: #666666;
 	/*font-weight: bold;*/
 	font-size: 16px !Important;
 
 	/*background-color:#000000; */
- /* background-attachment: fixed; 
-  background-image: url(../img/site/bkPage.jpg); 
- /* background-repeat: no-repeat; *
-  background-position: right bottom; */
+ 	
+ 	background-attachment: fixed; 
+  	/*background-image: url(../img/site/bkPage.png); 
+ 	background-repeat: no-repeat; 
+  	background-position: right bottom; */
 }
 h1, .h1{
 	margin-top: 0px;
@@ -150,7 +151,8 @@ hr{
 
 .colWidth {
 
-background-color: white !important;
+/*background-color: white !important;  /*original fondo de contnido*/
+background-color: transparent; !important;   /*degradado*/
 }
 
 /* SOCIAL */
