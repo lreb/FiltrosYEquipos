@@ -25,4 +25,12 @@ Disallow:
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
+Disallow: /_private/
+Disallow: /_vti_bin/
+Disallow: /_vti_cnf/
+Disallow: /_vti_log/
+Disallow: /_vti_pvt/
+Disallow: /_vti_txt/
+Disallow: /GUEST/
+Disallow: /yahoo_site_admin/
 Sitemap: http://filtrosyequipos.com/sitemap.xml
